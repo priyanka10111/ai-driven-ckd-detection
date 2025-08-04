@@ -1,0 +1,77 @@
+# === Python Bytecode ===
+__pycache__/
+*.py[cod]
+*.so
+
+# === Jupyter Notebook Checkpoints ===
+.ipynb_checkpoints/
+
+# === Virtual Environments ===
+env/
+venv/
+.venv/
+ENV/
+
+# === Model & Dataset Files ===
+*.pt
+*.pth
+*.h5
+*.pb
+*.ckpt
+*.npy
+*.npz
+*.csv
+*.xlsx
+*.xls
+*.zip
+*.tar.gz
+*.7z
+*.db
+*.sqlite
+
+# === Output / Result Folders ===
+__results__files/
+results*/
+archive*/
+relevent and irrelevent/
+KMC_Dataset_for_grading*/
+
+# === Logs and Cache ===
+*.log
+logs/
+wandb/
+*.cache/
+
+# === System/IDE Files ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# === Secret or Credential Files ===
+.env
+*.pem
+*.key
+*.json
+
+# === Node or Frontend Generated Content (optional) ===
+node_modules/
+build/
+dist/
+
+# Ignore large image files
+*.jpg
+*.jpeg
+*.png
+*.webp
+
+# Ignore font files
+*.ttf
+*.woff
+*.woff2
+
+# Ignore Jupyter notebooks
+*.ipynb
+
+# Ignore saved images folder
+FRONTEND/static/saved_images/
